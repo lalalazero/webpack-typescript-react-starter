@@ -23,6 +23,10 @@ module.exports = {
             {
                 test: /\.less$/,
                 use: ['style-loader', 'css-loader', 'less-loader']
+            },
+            {
+                test: /\.(scss|sass)$/,
+                use: ['style-loader', 'css-loader', 'sass-loader']
             }
         ]
     },

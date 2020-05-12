@@ -4,11 +4,12 @@
 
 ## 功能
 - `webpack` (4.x)
-- `react` (16.x)
+- `react` `react-dom` (16.x) 
 - `typescript` (3.x)
 - `css` 
 - `less`
 - `scss`
+- `sass`
 - `eslint`
 - `react-router`
 - `redux` & `redux-thunk`
@@ -18,6 +19,9 @@
 
 ## 变更记录
 
+从新到旧排列:
+
+- 完成样式的支持 `css` `less` `sass` `scss`
 - 完成 `react` `react-dom` `typescript` `webpack` 基础配置
 
 
@@ -38,7 +42,7 @@
 
 ### 样式相关
 
-`css-loader` `style-loader` `less-loader`
+`css-loader` `style-loader` `less-loader` `sass-loader` `node-sass`
 
 ### 测试相关
 
