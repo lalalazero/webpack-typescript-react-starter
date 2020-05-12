@@ -20,7 +20,7 @@
 ## 变更记录
 
 从新到旧排列:
-
+- 完成 lint 配置
 - 完成样式的支持 `css` `less` `sass` `scss`
 - 完成 `react` `react-dom` `typescript` `webpack` 基础配置
 
@@ -47,3 +47,7 @@
 ### 测试相关
 
 ### lint 相关
+
+参照[这个](https://www.robertcooper.me/using-eslint-and-prettier-in-a-typescript-project)来配置的
+
+`eslint` `@typescript-eslint/parser` `@typescript-eslint/eslint-plugin` `eslint-plugin-react`
