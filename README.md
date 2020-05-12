@@ -1,25 +1,20 @@
 # webpack-typescript-react-starter
 
-一个配置了 webpack4 typescript react react-dom 的基础脚手架。
+一个快速开始搭建项目的脚手架。
 
-- 没有 redux
-- 没有 router
-- 没有异步处理(redux-thunk redux-saga mobx 要按需配置）
-- 没有 UI 库
-- 没有测试，自己配
+## 功能
+- `webpack` (4.x)
+- `react` (16.x)
+- `typescript` (3.x)
+- `CSS` 
+- `SCSS`
+- `eslint`
+- `react-router`
+- `redux` & `redux-thunk`
+- `antd` (3.x)
+- `jest`
 
-## 核心依赖
 
-- webpack  `npm i webpack webpack-cli webpack-dev-server -D`
+## 变更记录
 
-- react `npm i react react-dom`
-
-- typescript `npm i typescript @types/react @types/react-dom ts-loader -D`
-
-## webpack 插件
-
-npm install -D 安装
-
-- `html-webpack-plugin`
-- `clean-webpack-plugin`
-- `webpack-merge @types/webpack-merge`
+- 完成 `react` `react-dom` `typescript` `webpack` 基础配置
