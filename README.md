@@ -20,6 +20,7 @@
 ## 变更记录
 
 从新到旧排列:
+- 添加 antd UI 库([解决icons都导入的问题](https://github.com/ant-design/babel-plugin-import/issues/352#issuecomment-549652348))
 - 完成 lint 配置
 - 完成样式的支持 `css` `less` `sass` `scss`
 - 完成 `react` `react-dom` `typescript` `webpack` 基础配置
@@ -43,6 +44,10 @@
 ### 样式相关
 
 `css-loader` `style-loader` `less-loader` `sass-loader` `node-sass`
+
+### UI 组件库
+
+`antd` `moment`
 
 ### 测试相关
 
