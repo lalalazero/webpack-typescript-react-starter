@@ -1,6 +1,5 @@
 import React from 'react'
 import { Button } from 'antd'
-import 'antd/dist/antd.css';
 import './style.css'
 import './style-less.less'
 import './style-sass.sass'

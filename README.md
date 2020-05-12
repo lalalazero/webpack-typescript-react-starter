@@ -20,7 +20,8 @@
 ## 变更记录
 
 从新到旧排列:
-- 从 ts-loader 转向 babel-loader
+- 给 antd UI 库添加 `babel-plugin-import` 插件
+- 从 `ts-loader` 转向 `babel-loader`
 - 添加 antd UI 库([解决icons都导入的问题](https://github.com/ant-design/babel-plugin-import/issues/352#issuecomment-549652348))
 - 完成 lint 配置
 - 完成样式的支持 `css` `less` `sass` `scss`
@@ -40,7 +41,7 @@
 
 ### babel 相关
 
-npm install --save-dev @babel/core @babel/cli @babel/plugin-proposal-class-properties @babel/preset-env @babel/preset-typescript babel-loader @babel/preset-react @babel/plugin-proposal-object-rest-spread
+npm install --save-dev @babel/core @babel/cli @babel/plugin-proposal-class-properties @babel/preset-env @babel/preset-typescript babel-loader @babel/preset-react @babel/plugin-proposal-object-rest-spread babel-plugin-import
 
 
 ### react 相关
