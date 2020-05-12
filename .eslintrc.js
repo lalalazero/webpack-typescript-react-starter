@@ -20,4 +20,9 @@ module.exports = {
         "@typescript-eslint/no-unused-vars": ["error"]
     },
     root: true,
+    overrides: [
+        {
+            "files": ["/build/*.js"]
+        }
+    ]
 }
