@@ -11,6 +11,9 @@ interface State {
     count: number
 }
 export default class extends Component<Greeting, State> {
+    constructor(props: Greeting) {
+        super(props)
+    }
     state: State = {
         count: 0
     }
@@ -25,6 +28,7 @@ export default class extends Component<Greeting, State> {
     }
     render() {
         return <div>
+            <p>HelloClass</p>
             <Button onClick={this.onClick}>hello {this.props.name} + 1</Button>
             <p>count : {this.state.count}</p>
         </div>
